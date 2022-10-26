@@ -1,4 +1,4 @@
-package com.example.service;
+package com.school.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,16 +8,16 @@ import javax.security.auth.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.DAO.Groups;
-import com.example.DAO.Marks;
-import com.example.DAO.Students;
-import com.example.DAO.SubjectTeacher;
-import com.example.DAO.Subjects;
-import com.example.repository.GroupsRepository;
-import com.example.repository.MarksRepository;
-import com.example.repository.StudentsRepository;
-import com.example.repository.SubjectTeacherRepository;
-import com.example.repository.SubjectsRepository;
+import com.school.DAO.Groups;
+import com.school.DAO.Marks;
+import com.school.DAO.Students;
+import com.school.DAO.SubjectTeacher;
+import com.school.DAO.Subjects;
+import com.school.repository.GroupsRepository;
+import com.school.repository.MarksRepository;
+import com.school.repository.StudentsRepository;
+import com.school.repository.SubjectTeacherRepository;
+import com.school.repository.SubjectsRepository;
 
 @Service
 public class DAOService{

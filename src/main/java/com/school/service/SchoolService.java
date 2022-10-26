@@ -1,4 +1,4 @@
-package com.example.service;
+package com.school.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,12 +8,12 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-import com.example.DAO.Marks;
-import com.example.DAO.SubjectTeacher;
-import com.example.component.SchoolComponent;
-import com.example.models.MarksBySubjectModel;
-import com.example.models.MarksListModel;
-import com.example.repository.MarksRepository;
+import com.school.DAO.Marks;
+import com.school.DAO.SubjectTeacher;
+import com.school.component.SchoolComponent;
+import com.school.models.MarksBySubjectModel;
+import com.school.models.MarksListModel;
+import com.school.repository.MarksRepository;
 
 @Service
 public class SchoolService implements SchoolComponent{
