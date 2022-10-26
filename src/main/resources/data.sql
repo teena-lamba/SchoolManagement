@@ -53,7 +53,7 @@ insert into SUBJECT_TEACHER values(805, 605, 102, 2005);
 
 
 select sum(m.marks) from marks m where m.student_id = 1 group by m.student_id;
- select count(student_id) from students where group_id =    select group_id from subject_teacher where teacher_id = 602
+select count(student_id) from students where group_id =    select group_id from subject_teacher where teacher_id = 602
 
 
 

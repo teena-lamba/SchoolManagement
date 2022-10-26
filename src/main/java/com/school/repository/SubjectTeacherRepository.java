@@ -1,8 +1,8 @@
-package com.example.repository;
+package com.school.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.DAO.SubjectTeacher;
+import com.school.DAO.SubjectTeacher;
 
 public interface SubjectTeacherRepository extends CrudRepository<SubjectTeacher, Integer>  {
 

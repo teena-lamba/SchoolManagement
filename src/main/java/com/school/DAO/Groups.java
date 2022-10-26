@@ -1,4 +1,4 @@
-package com.example.DAO;
+package com.school.DAO;
 
 import java.util.List;
 

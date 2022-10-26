@@ -1,4 +1,4 @@
-package com.example.DAO;
+package com.school.DAO;
 
 import java.sql.Date;
 import java.util.List;

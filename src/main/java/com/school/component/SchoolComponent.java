@@ -1,11 +1,11 @@
-package com.example.component;
+package com.school.component;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.example.DAO.Groups;
-import com.example.models.MarksBySubjectModel;
+import com.school.DAO.Groups;
+import com.school.models.MarksBySubjectModel;
 @Component
 public interface SchoolComponent {
 	public long getStudentMarks(int studentId);
